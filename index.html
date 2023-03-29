@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Starter</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <section class="menu">
+    <!-- title -->
+    <div class="menu-center">
+      <div class="title">
+        <h2> menu</h2>
+      
+        <div class="underline"></div>
+      </div>
+      <button class="toggle-btn">Dark mode</button>
+    </div>
+    <!-- filter button -->
+    <div class="btn-container">
+      <button class="filter-btn" type="button" data-id="all">All</button>
+      <button class="filter-btn" type="button" data-id="Vegetarian">Vegetarian</button>
+      <button class="filter-btn" type="button" data-id="Beef">Beef</button>
+      <button class="filter-btn" type="button" data-id="Pork">Pork</button>
+      <!-- <button class="filter-btn" type="button" data-id="Dessert">Dessert</button> -->
+    </div>
+    <!-- menu items -->
+    <div class="section-center">
+      <!-- single item -->
+      <article class="menu-item">
+        <img src="menu-item.jpeg" alt="menu-item" class="photo" />
+        <div class="item-info">
+          <header>
+            <h4>pancakes</h4>
+            <h4 class="price">$15</h4>
+          </header>
+        </div>
+        <p class="item-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, dignissimos quam! Doloribus dolores
+          suscipit dicta cumque numquam asperiores deleniti totam.
+        </p>
+      </article>
+
+      <!-- end of single item -->
+    </div>
+  </section>
+  <!-- javascript -->
+  <script src="src/app.js"></script>
+</body>
+
+</html>
